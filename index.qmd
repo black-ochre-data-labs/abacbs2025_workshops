@@ -226,7 +226,7 @@ Please find an outline of the currently scheduled sessions immediately below, al
   </tr>
   <tr>  
     <th> 11:00</th>
-    <td style="background-color: #b6d0e2;"> (To Be Confirmed)<br>Identifying Biomarkers of Drug Sensitivity and Predicting Treatment Responsive Colon Cancer Patients</td>
+    <td style="background-color: #b6d0e2;"> CANCELLED<br><s>Identifying Biomarkers of Drug Sensitivity and Predicting Treatment Responsive Colon Cancer Patients</s></td>
     <td style="background-color: #e2deb6;"> Advanced Marker Identification and Data Analysis with mastR and smartid</td>
   </tr>
   <tr>  
@@ -235,7 +235,7 @@ Please find an outline of the currently scheduled sessions immediately below, al
   </tr>  
   <tr>
     <th> 1:30</th>
-    <td style="background-color: #b6d0e2;"> (To Be Confirmed)<br>Identifying Biomarkers of Drug Sensitivity and Predicting Treatment Responsive Colon Cancer Patients (continued)</td>
+    <td style="background-color: #b6d0e2;"> CANCELLED<br><s>Identifying Biomarkers of Drug Sensitivity and Predicting Treatment Responsive Colon Cancer Patients</s></td>
     <td style="background-color: #b6e2de;"> <strong>Scalable Workflows & Compute Infrastructure<br></strong>Interpreting benchmarking results with BenchmarkInsights</td>
     <td style="background-color: #e2b6ba;"> Interrogating spatial transcriptomics: hands-on spatial domain, neighborhood & density analysis with DOMINO, hoodscanR and scider</td>
   </tr>
@@ -866,50 +866,6 @@ louie <- list(
     )
   )
 )
-elitok <- list(
-  Start = "2025-11-28 11:00:00",  
-  End = "2025-11-28 15:00:00", 
-  Break = 60,
-  Title = "(TO BE CONFIRMED) Identifying Biomarkers of Drug Sensitivity and Predicting Treatment Responsive Colon Cancer Patients",
-  Presenter = list(c("Bilge Elitok1")),
-  Institution = list(c("University of Eastern Finland, Institute of Biomedicine")),
-  Domain = "ABACBS",
-  Stream = list(
-    c("AI and Machine Learning in Genomics")
-  ),
-  Abstract = list(
-    tags$body(
-      tags$p(
-        "During this workshop we will use two publicly available large 
-      pharmacogenomic datasets: the Cancer Cell Line Encyclopedia (CCLE) and 
-      Genomics of Drug Sensitivity in Cancer (GDSC) to bridge alternations in 
-      gene expression to the drug response, to answer the question whether an 
-      individual will respond well to a treatment; before starting the 
-      treatment.The workshop will be implemented in two steps:"
-      ),
-      tags$ol(
-        tags$li(
-          tags$strong(
-            "Supervised Learning for Biomarker Prediction and Selection: "
-          ),
-          "We will  use regularization-based machine learning models; such as 
-          Ridge Regression and ElasticNet Regression alongside Linear Regression
-          to identify biomarker genes with highest predictive power for drug 
-        (e.g. Docataxel) sensitivity."
-        ),
-        tags$li(
-          tags$strong(
-            "Unsupervised Learning for Patient Clustering: "
-          ),
-          "Using a publicly available patient gene expression dataset (e.g. 
-        colon adenocarcinoma) from TCGA database, we will cluster patients into 
-        two clusters “Drug-Resistant” and “Drug-Sensitive” based on the 
-        biomarkers predicted by our machine learning model in the first part."
-        )
-      )
-    )
-  )
-)
 cain <- list(
   Start = "2025-11-28 09:00:00",  
   End = "2025-11-28 10:30:00", 
@@ -1128,8 +1084,7 @@ df <-list(
   biocommons, wirth, 
   borman, ryan, 
   scdney, hutch, pratibha,
-  louie, elitok,
-  cain, chen, liang,
+  louie,   cain, chen, liang,
   bhuva, liu
 ) %>% 
   lapply(as_tibble) %>% 
