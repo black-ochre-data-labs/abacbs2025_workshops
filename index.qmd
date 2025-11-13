@@ -163,11 +163,11 @@ Please find an outline of the currently scheduled sessions immediately below, al
   </tr>
   <tr>
     <th> Time</th>
-    <th style="background-color: #b6bae2;"> Professional Bioinformatics<br>(Room 506)</th>
+    <th style="background-color: #b6bae2;"> Professional Bioinformatics<br>(Room 306)</th>
     <th style="background-color: #bae2b6;"> Long Reads<br>(Room 310)</th>
     <th style="background-color: #b6e2de;"> Scalable Workflows & Compute Infrastructure<br>(Room 415)</th>
-    <th style="background-color: #e2deb6;"> Microbiome & Metagenomics<br>(Room 416)</th>
-    <th style="background-color: #e2b6ba;"> Single-Cell and Spatial Transcriptomics<br>(Room 605)</th>
+    <th style="background-color: #e2deb6;"> Microbiome & Metagenomics<br>(Room 605)</th>
+    <th style="background-color: #e2b6ba;"> Single-Cell and Spatial Transcriptomics<br>(Room 506)</th>
   </tr>
   <tr>
     <th> 8:30</th>
@@ -195,12 +195,12 @@ Please find an outline of the currently scheduled sessions immediately below, al
     <td style="background-color: #e2b6ba;"> <strong>Single-Cell and Spatial Transcriptomics<br></strong>DCS Cloud: Revolutionizing Genomics Research through Integrated, AI-Driven Solutions </td>
     <td rowspan="2" style="background-color: #b6e2de;"> Client-side bioinformatics: building robust bioinformatics tools for the browser with WebAssembly</td>
     <td rowspan="2" style="background-color: #e2deb6;"> Making Sense of Metagenomes</td>
-    <td style="background-color: #e2b6ba;"> Streamline spatial and transcriptomic analysis with tidyomics</td>
+    <td style="background-color: #e2b6ba;"> <b>Room 505</b><br>Streamline spatial and transcriptomic analysis with tidyomics</td>
   </tr>
   <tr>
     <th> 3:30</th>
     <td style="background-color: #e2b6ba;"> A taster of in situ spatial transcriptomics experimental analysis </td>
-    <td rowspan="2" style="background-color: #e2b6ba;"> Spatial clustering with ClustSIGNAL – a spatial transcriptomics data analysis method</td>
+    <td rowspan="2" style="background-color: #e2b6ba;"> <b>Room 505</b><br>Spatial clustering with ClustSIGNAL – a spatial transcriptomics data analysis method</td>
   </tr>  
 </table>
 
@@ -214,8 +214,8 @@ Please find an outline of the currently scheduled sessions immediately below, al
   </tr>
   <tr>
     <th> Time</th>
-    <th style="background-color: #b6d0e2;"> AI and Machine Learning in Genomics<br>(Room 416)</th>
-    <th style="background-color: #e2deb6;"> Single Cell Omics<br>(Room 309)</th>
+    <th style="background-color: #b6d0e2;"> AI and Machine Learning in Genomics<br>(Room 309)</th>
+    <th style="background-color: #e2deb6;"> Single Cell Omics<br>(Room 506)</th>
     <th style="background-color: #e2b6ba;"> Spatial Transcriptomics<br>(Room 505)</th>
   </tr>
   <tr>
