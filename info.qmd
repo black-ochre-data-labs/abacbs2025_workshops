@@ -1,0 +1,83 @@
+---
+title: "ABACBS/BiocAsia Workshop Key Information"
+editor: source
+format: 
+  html:
+    page-layout: full
+    title-block-banner: "#0d1413"
+knitr: 
+  opts_chunk: 
+    echo: false
+    include: true
+    eval: true
+    warning: false
+    message: false
+---
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png?format=2500w)
+
+# Location
+
+Workshops will be held in Festival Tower located [here](https://maps.app.goo.gl/gwrbmTE6J4puUPum9).
+Please note, it's a relatively new building so Google Maps hasn't updated street view to show the building yet.
+The entrance is on the western side facing the Adelaide Casino (i.e. the old Railway Station).
+**There are two entrances on the western side. Choose the one closest to the river**.
+There will be greeters there on Thursday to help you find your way.
+
+Once inside the building, head to room 605 for the key information session starting at 8:30am on Thursday 27th.
+As we will be spread across multiple floors throughout the day, *level 5 has been designated as the location for catering.*
+There will be coffee and tea-making facilities available there as well.
+
+The full workshop program will remain [available here](index.html)
+
+# Setup Instructions {.tabset}
+
+Most workshops will use VMs, generously provided by [Pawsey](https://pawsey.org.au).
+However, some will be designed to run on your local machines and have specific requirements.
+If attending a session listed below, please check these carefully before attending.
+
+::: panel-tabset
+
+## DCS Cloud: Revolutionizing Genomics Research through Integrated, AI-Driven Solutions
+
+To make sure your hands-on session runs smoothly, please complete these quick steps before the workshop:
+
+### Create Your DCS Cloud Account
+
+All practice session will be done on STOmics DCS Cloud. 
+Sign up for your free account [here](https://apac-cloud.stomics.tech/#/login).
+(New users receive SG$100 in free credits.) 
+Once registered, create a new project in your workspace.
+Have a look at the Quick Start Guide and Video Tutorials to get familiar with the interface.
+
+### System Configuration (Optional for Local Practice):
+
+While the cloud is preferred for the workshop, a local Windows PC is suitable for future use. Note that macOS may require additional configuration for Docker-based tools like Stereopy.
+Please see the minimum requirements below.
+
+::: panel-tabset
+
+#### Windows
+
+- Windows 10 or later (64-bit)
+- 16 GB RAM (minimum 8 GB RAM for Tools-QC)
+- SSD storage highly recommended
+- 100% scaling display setting recommended
+
+#### MacOS
+
+- Only compatible with the Apple M-series chips
+- MacOS 11.3 (Big Sur) or later
+- 16 GB RAM
+- SSD storage highly recommended
+- Default display settings recommended
+
+:::
+
+Please complete these steps ahead of the workshop to ensure everything runs smoothly.
+
+If you have any questions, feel free to [contact MGI Australia](mailto:MGI_Australia@mgi-tech.com?subject=BACBS 2025 Workshop Inquiry)
+We’re happy to help.
+
+
+:::
