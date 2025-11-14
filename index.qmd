@@ -175,7 +175,7 @@ Setup instructions for select workshops are also [available here](info.html)
   </tr>
   <tr>
     <th> 9:00</th>
-    <td rowspan="2" style="background-color: #b6bae2;"> Introduction to Agentic Workflows</td>
+    <td rowspan="2" style="background-color: #b6bae2;"> Introduction to Agentic Development</td>
     <td style="background-color: #bae2b6;"> Introduction to Oxford Nanopore</td>
     <td rowspan="2" style="background-color: #b6e2de;"> Leveraging peak Australian compute to enable workflows for predictive structural biology at scale</td>
     <td rowspan="2" style="background-color: #e2deb6;"> Orchestrating Microbiome Analysis with Bioconductor</td>
@@ -257,9 +257,9 @@ raisa <- list(
   Start = "2025-11-27 09:00:00",
   End = "2025-11-27 12:30:00",
   Break = 30,
-  Title = "Introduction to agentic workflows",
+  Title = "Introduction to agentic development",
   Presenter = list(
-    c("Raisa Hashem1", "Jill Freyne1", "Emma Arrigo1")
+    c("Raisa Hashem1", "Cain Hopwood1", "Emma Arrigo1")
   ),
   Institution = list("Amazon Web Services"),
   Domain = "ABACBS",
