@@ -30,7 +30,7 @@ There will be coffee and tea-making facilities available there as well.
 
 The full workshop program will remain [available here](index.html)
 
-# Setup Instructions {.tabset}
+# Setup Instructions
 
 Most workshops will use VMs, generously provided by [Pawsey](https://pawsey.org.au).
 However, some will be designed to run on your local machines and have specific requirements.
@@ -79,5 +79,28 @@ Please complete these steps ahead of the workshop to ensure everything runs smoo
 If you have any questions, feel free to [contact MGI Australia](mailto:MGI_Australia@mgi-tech.com?subject=BACBS 2025 Workshop Inquiry)
 We’re happy to help.
 
+
+
+## Interpreting Benchmarking Results with BenchmarkInsights
+
+To prepare your laptop for the BenchHub workshop, please follow
+
+1. Install `devtools` if necessary
+
+```r
+install.packages('devtools')
+```
+
+2. Install `BenchHub` from the `SydneyBioX` github page
+
+```r
+devtools::install_github("SydneyBioX/BenchHub")
+```
+
+3. Once the session begins, we'll just need to enter
+
+```r
+library(BenchHub)
+```
 
 :::
