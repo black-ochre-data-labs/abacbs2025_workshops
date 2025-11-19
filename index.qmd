@@ -499,7 +499,7 @@ wirth <- list(
   Break = 30,
   Title = "Client-side bioinformatics: building robust  bioinformatics tools for the browser with  WebAssembly",
   Presenter = list(
-    c("Wytamma Wirth1,2", "Andrew Lonsdale3,4,5", "Torsten Seemann1,2")
+    c("Wytamma Wirth1,2", "Andrew Lonsdale3,4,5", "Leo Featherstone6", "Torsten Seemann1,2")
   ),
   Institution = list(
     c(
@@ -507,7 +507,8 @@ wirth <- list(
       "Centre for Pathogen Genomics, University of Melbourne, Victoria, Australia",
       "Peter MacCallum Cancer Centre, Melbourne, 3000, Australia",
       "Sir Peter MacCallum Department of Oncology, The University of Melbourne,  Parkville, 3010, Australia",
-      "Murdoch Children’s Research Institute, Parkville, 3052, Australia"
+      "Murdoch Children’s Research Institute, Parkville, 3052, Australia",
+      "Kirby Institute, UNSW, Sydney"
     )
   ),
   Domain = "ABACBS",
