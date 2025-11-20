@@ -18,27 +18,69 @@ knitr:
 
 # Location
 
+:::: {.columns}
+
+::: {.column width='50%'}
+
 Workshops will be held in Festival Tower located [here](https://maps.app.goo.gl/gwrbmTE6J4puUPum9).
 Please note, it's a relatively new building so Google Maps hasn't updated street view to show the building yet.
 The entrance is on the western side facing the Adelaide Casino (i.e. the old Railway Station).
-**There are two entrances on the western side. Choose the one closest to the river**.
+**There are two entrances on the western side. Choose the one closest to the river as shown by the yellow arrow**.
 There will be greeters there on Thursday to help you find your way.
 
-Once inside the building, head to room 605 for the key information session starting at 8:30am on Thursday 27th.
-As we will be spread across multiple floors throughout the day, *level 5 has been designated as the location for catering.*
-There will be coffee and tea-making facilities available there as well.
+Once inside the building, **head to room 605 for the key information session starting at 8:30am** on Thursday 27th.
+During this welcome and information session detailed instructions for accessing virtual machines (VMs) through the day will be given.
 
-The full workshop program will remain [available here](index.html)
+:::
+
+::: {.column width='50%'}
+![](festival_plaza.png)
+:::
+::::
+
+The full workshop program with all room allocations is [available here](index.html).
+Please note that workshops are spread across multiple floors of the building, and **level 5 has been designated as the location for catering.**
+There will be coffee and tea-making facilities available there throughout the day as well.
+
+The primary locations for each workshop stream will be:
+
+:::: {.columns}
+::: {.column}
+
+**Thursday November 27th**
+
+1. Room 306 (ABACBS): Professional Bioinformatics
+2. Room 307 (ABACBS): Long Read Technology
+3. Room 415 (ABACBS): Scalable Workflows & Compute Infrastructure
+4. Room 605 (BiocAsia): Microbiome/Metagenomics
+5. Room 505 (BiocAsia): Single-Cell & Spatial Omics (Morning)
+6. Room 506 (BiocAsia): Single-Cell & Spatial Omics (Afternoon)
+
+:::
+
+::: {.column}
+**Friday November 28th**
+
+1. Room 309 (ABACBS): AI and Machine Learning in Genomics
+2. Room 505 (BiocAsia): Single-Cell Omics + Scalable Workflows & Compute Infrastructure
+3. Room 506 (BiocAsia): Spatial Omics
+
+:::
+::::
 
 # Setup Instructions
 
-Most workshops will use VMs, generously provided by [Pawsey](https://pawsey.org.au).
+Most workshops will use VMs, generously provided by [Pawsey](https://pawsey.org.au) as a key sponsor of these workshops.
 However, some will be designed to run on your local machines and have specific requirements.
 If attending a session listed below, please check these carefully before attending.
 
+1. [DCS Cloud: Revolutionizing Genomics Research through Integrated, AI-Driven Solutions](#tabset-2-1-tab)
+2. [Interpreting benchmarking results with BenchmarkInsights](#tabset-2-2-tab)
+3. [Leveraging peak Australian compute to enable workflows for predictive structural biology at scale](#tabset-2-3-tab)
+
 ::: panel-tabset
 
-## DCS Cloud: Revolutionizing Genomics Research through Integrated, AI-Driven Solutions
+## DCS Cloud
 
 To make sure your hands-on session runs smoothly, please complete these quick steps before the workshop:
 
@@ -102,5 +144,24 @@ devtools::install_github("SydneyBioX/BenchHub")
 ```r
 library(BenchHub)
 ```
+
+## Leveraging Peak Australian Compute
+
+### Required:
+
+- The main requirement for this workshop is a personal computer with a web browser, [Visual Studio Code](https://code.visualstudio.com/) and the “Remote - SSH” VScode extension. This equipment will allow you to follow the online materials and to login to a facility with the required software stack.
+- You can download and install VSCode by following the [installation instructions](https://code.visualstudio.com/docs/setup/setup-overview) for your local Operating System.
+- The “Remote - SSH” extension can be found In the Extensions Marketplace (four blocks in left side-bar of VScode) search bar - search for remote ssh. 
+- You should also be familiar with bash scripting. This is an introduction to Bash that you might find useful:  [The Unix Shell: Summary and Setup](https://swcarpentry.github.io/shell-novice/)
+
+
+### Recommended:
+
+- Google account able to run colab notebooks (e.g. [ColabFold](https://colab.research.google.com/github/sokrypton/ColabFold/blob/main/AlphaFold2.ipynb#scrollTo=mbaIO9pWjaN0)).
+
+
+### Recommended for use after the workshop:
+
+- Molecular Viewer installed (PyMOL/ChimeraX)
 
 :::
