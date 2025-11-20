@@ -16,11 +16,12 @@ knitr:
 
 ![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png?format=2500w)
 
-# Location
 
 :::: {.columns}
 
 ::: {.column width='50%'}
+
+# Location
 
 Workshops will be held in Festival Tower located [here](https://maps.app.goo.gl/gwrbmTE6J4puUPum9).
 Please note, it's a relatively new building so Google Maps hasn't updated street view to show the building yet.
@@ -38,10 +39,11 @@ During this welcome and information session detailed instructions for accessing 
 :::
 ::::
 
+# Program
+
 The full workshop program with all room allocations is [available here](index.html).
 Please note that workshops are spread across multiple floors of the building, and **level 5 has been designated as the location for catering.**
 There will be coffee and tea-making facilities available there throughout the day as well.
-
 The primary locations for each workshop stream will be:
 
 :::: {.columns}
