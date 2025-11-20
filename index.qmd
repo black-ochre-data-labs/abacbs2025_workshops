@@ -1180,3 +1180,12 @@ cp <- tags$caption(
 browsable(tagList(cp, tbl))
 ```
 
+
+*The workshop organisers gratefully thank our sponsors*
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/db60bf70-5296-4008-a65a-7ff416c21d05/pawsey-logo-beige.png?format=2500w)
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/b63a95b5-032a-4d09-8fa9-3e1a6931a1ad/Screenshot+2025-07-28+at+14.25.24.png?format=500w)
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/22378394-6648-41f8-be38-82636e29dc1d/Screenshot+2025-07-02+at+1.52.27%E2%80%AFpm.png?format=1200w)
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/e5b29f2c-e43c-438c-9189-0928a78f1c19/Bickfords_Australia_logo.webp?format=400w)
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/000809d4-ab00-4aa8-bbb9-89f41a7925dd/Screenshot+2025-07-02+at+2.06.13%E2%80%AFpm.png?format=1000w)
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/7ecf5273-876c-4f3c-bc76-364438cb6f5d/Screenshot+2025-07-02+at+2.06.08%E2%80%AFpm.png?format=1000w)
