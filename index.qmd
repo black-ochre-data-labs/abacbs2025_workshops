@@ -908,7 +908,7 @@ chen <- list(
   Break = 0,
   Title = "Advanced Marker Identification and Data Analysis with mastR and smartid",
   Presenter = list(
-    c("Jinjin Chen1", "Liyang Fei2")
+    c("Jinjin Chen1", "Chin Wee Tan1", "Liyang Fei2")
   ),
   Institution = list(
     c(
