@@ -109,6 +109,7 @@ If attending a session listed below, please check these carefully before attendi
 1. [DCS Cloud: Revolutionizing Genomics Research through Integrated, AI-Driven Solutions](#tabset-2-1-tab)
 2. [Interpreting benchmarking results with BenchmarkInsights](#tabset-2-2-tab)
 3. [Leveraging peak Australian compute to enable workflows for predictive structural biology at scale](#tabset-2-3-tab)
+4. [Client-side bioinformatics: building robust bioinformatics tools for the browser with WebAssembly](#tabset-2-4-tab)
 
 ::: panel-tabset
 
@@ -195,6 +196,17 @@ library(BenchHub)
 ### Recommended for use after the workshop:
 
 - Molecular Viewer installed (PyMOL/ChimeraX)
+
+## Client-side bioinformatics
+
+We’re looking forward to seeing you at our ABACBS workshop on Thursday. 
+The second half of our workshop will be a mini-hackathon so come prepared to learn and create! 
+
+Please ensure that you have a GitHub account and laptop (or something with a web browser) on the day.
+Our landing page for the workshop can be found at [https://wasmodic.github.io](https://wasmodic.github.io).
+
+Please [email](mailto:wytamma.wirth@unimelb.edu.au) with any questions.
+
 
 :::
 
