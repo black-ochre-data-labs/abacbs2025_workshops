@@ -16,6 +16,8 @@ knitr:
 
 ![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png?format=2500w)
 
+The complete schedule is available [here](index.html)
+
 
 ```{r}
 library(tidyverse)
@@ -90,17 +92,34 @@ data[["Using long reads to analyse genetic variation"]] %>%
 ```{r}
 data[["Leveraging peak Australian compute to enable workflows for predictive structural biology at scale"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  # mutate(IP = "") %>% 
   reactable(pagination = FALSE)
 ```
 
 
 ### Room 506: Unlocking single-cell spatial omics analyses with SCDNEY
 
+<!-- username:	`rstudio` -->
+
+<!-- password:	N5DTm+zmyxpttLUfcaQZ -->
+
 ```{r}
+ip <- c("http://146.118.68.235:8787", "http://146.118.67.167:8787", 
+"http://146.118.65.229:8787", "http://146.118.66.126:8787", "http://146.118.64.253:8787", 
+"http://146.118.69.168:8787", "http://146.118.66.0:8787", "http://146.118.65.94:8787", 
+"http://146.118.69.130:8787", "http://146.118.68.150:8787", "http://146.118.69.63:8787", 
+"http://146.118.68.170:8787", "http://146.118.66.132:8787", "http://146.118.70.109:8787", 
+"http://146.118.68.25:8787", "http://146.118.65.62:8787", "http://146.118.64.29:8787", 
+"http://146.118.66.31:8787", "http://146.118.64.160:8787", "http://146.118.65.139:8787", 
+"http://146.118.68.177:8787", "http://146.118.69.220:8787", "http://146.118.64.197:8787", 
+"http://146.118.65.92:8787", "http://146.118.69.215:8787", "http://146.118.69.152:8787", 
+"http://146.118.68.112:8787", "http://146.118.68.157:8787", "http://146.118.65.16:8787", 
+"http://146.118.68.35:8787", "http://146.118.66.160:8787", "http://146.118.70.88:8787", 
+"http://146.118.70.59:8787", "http://146.118.68.26:8787", "http://146.118.64.3:8787"
+)
 data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
 
@@ -257,4 +276,4 @@ data[["Interpreting benchmarking results with BenchmarkInsights"]] %>%
   reactable(pagination = FALSE)
 ```
 
-
+:::
