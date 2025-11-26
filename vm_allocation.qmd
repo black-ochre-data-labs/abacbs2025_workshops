@@ -15,3 +15,199 @@ knitr:
 ---
 
 ![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png?format=2500w)
+
+
+```{r}
+library(tidyverse)
+library(htmltools)
+library(reactable)
+data <- read_rds("attendees_by_session.rds") %>% 
+  setNames(
+    str_remove_all(names(.), ".+ - ")
+  )
+```
+
+## Thursday Morning
+
+::: panel-tabset
+
+### Introduction to Nanopore
+
+```{r}
+data[["Introduction to Nanopore"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Unlocking single-cell spatial omics analyses with SCDNEY
+
+```{r}
+data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Orchestrating Microbiome Analysis with Bioconductor
+
+```{r}
+data[["Orchestrating Microbiome Analysis with Bioconductor"]] %>% 
+  arrange(name) %>%   
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Leveraging peak Australian compute to enable workflows for predictive structural biology at scale
+
+```{r}
+data[["Leveraging peak Australian compute to enable workflows for predictive structural biology at scale"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Introduction to Agentic Workflows
+
+```{r}
+data[["Professional Bioinformatics: Introduction to Agentic Workflows"]] %>% 
+  arrange(name) %>% 
+  reactable(pagination = FALSE)
+```
+
+### Using long reads to analyse genetic variation
+
+```{r}
+data[["Using long reads to analyse genetic variation"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+:::
+
+## Thursday Afternoon
+
+::: panel-tabset
+
+### Streamline spatial and transcriptomic analysis with tidyomics
+
+```{r}
+data[["Streamline spatial and transcriptomic analysis with tidyomics"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Client-side bioinformatics: Building robust bioinformatics tools for the browser with WebAssembly
+
+```{r}
+data[["Client-side bioinformatics"]] %>% 
+  arrange(name) %>% 
+  reactable(pagination = FALSE)
+```
+
+### Making Sense of Metagenomes: From Bugs to Biological Insight
+
+```{r}
+data[["Making Sense of Metagenomes: From Bugs to Biological Insight"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driven Solutions
+
+```{r}
+data[["DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driven Solutions"]] %>% 
+  arrange(name) %>% 
+  reactable(pagination = FALSE)
+```
+
+### Spatial clustering with ClustSIGNAL
+
+```{r}
+data[["Spatial clustering with ClustSIGNAL"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### A taster of in situ spatial transcriptomics experimental analysis
+
+```{r}
+data[["A taster of in situ spatial transcriptomics experimental analysis"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+
+:::
+
+## Friday Morning
+
+::: panel-tabset
+
+### ATAClone: cancer clone identification and copy number estimation
+
+```{r}
+data[["ATAClone: cancer clone identification and copy number estimation"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda
+
+```{r}
+data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Decoding Biological Data with Random Matrix Theory
+
+```{r}
+data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Advanced Marker Identification and Data Analysis with mastR and smartid
+
+```{r}
+data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+:::
+
+## Friday Afternoon
+
+::: panel-tabset
+
+### Interpreting benchmarking results with BenchmarkInsights
+
+```{r}
+data[["Interpreting benchmarking results with BenchmarkInsights"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider
+
+```{r}
+data[["Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+
+:::
