@@ -1,0 +1,17 @@
+---
+title: "ABACBS/BiocAsia Workshop VM Allocation"
+editor: source
+format: 
+  html:
+    page-layout: full
+    title-block-banner: "#0d1413"
+knitr: 
+  opts_chunk: 
+    echo: false
+    include: true
+    eval: true
+    warning: false
+    message: false
+---
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png?format=2500w)
