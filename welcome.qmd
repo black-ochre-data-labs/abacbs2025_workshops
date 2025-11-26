@@ -135,7 +135,7 @@ format:
 - Catering will be on Level 5 for both days
 - Toilets are located on each floor
 - WiFi via `eduroam` or the Flinders University WiFi
-    + Today's guest password is: 
+    + Today's guest password is: `sillymusic71`
 
 ::: {.fragment}
 - Tomorrow please enjoy the sleep-in for a 9am start
