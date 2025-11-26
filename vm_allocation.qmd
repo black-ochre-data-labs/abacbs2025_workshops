@@ -31,7 +31,15 @@ data <- read_rds("attendees_by_session.rds") %>%
 
 ::: panel-tabset
 
-### Introduction to Nanopore
+### Room 306: Introduction to Agentic Workflows
+
+```{r}
+data[["Professional Bioinformatics: Introduction to Agentic Workflows"]] %>% 
+  arrange(name) %>% 
+  reactable(pagination = FALSE)
+```
+
+### Room 310: Introduction to Nanopore
 
 ```{r}
 data[["Introduction to Nanopore"]] %>% 
@@ -40,42 +48,7 @@ data[["Introduction to Nanopore"]] %>%
   reactable(pagination = FALSE)
 ```
 
-### Unlocking single-cell spatial omics analyses with SCDNEY
-
-```{r}
-data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### Orchestrating Microbiome Analysis with Bioconductor
-
-```{r}
-data[["Orchestrating Microbiome Analysis with Bioconductor"]] %>% 
-  arrange(name) %>%   
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### Leveraging peak Australian compute to enable workflows for predictive structural biology at scale
-
-```{r}
-data[["Leveraging peak Australian compute to enable workflows for predictive structural biology at scale"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### Introduction to Agentic Workflows
-
-```{r}
-data[["Professional Bioinformatics: Introduction to Agentic Workflows"]] %>% 
-  arrange(name) %>% 
-  reactable(pagination = FALSE)
-```
-
-### Using long reads to analyse genetic variation
+### Room 310: Using long reads to analyse genetic variation
 
 ```{r}
 data[["Using long reads to analyse genetic variation"]] %>% 
@@ -84,39 +57,42 @@ data[["Using long reads to analyse genetic variation"]] %>%
   reactable(pagination = FALSE)
 ```
 
+### Room 415: Leveraging peak Australian compute to enable workflows for predictive structural biology at scale
+
+```{r}
+data[["Leveraging peak Australian compute to enable workflows for predictive structural biology at scale"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+
+### Room 506: Unlocking single-cell spatial omics analyses with SCDNEY
+
+```{r}
+data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Room 605: Orchestrating Microbiome Analysis with Bioconductor
+
+```{r}
+data[["Orchestrating Microbiome Analysis with Bioconductor"]] %>% 
+  arrange(name) %>%   
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+
 :::
 
 ## Thursday Afternoon
 
 ::: panel-tabset
 
-### Streamline spatial and transcriptomic analysis with tidyomics
-
-```{r}
-data[["Streamline spatial and transcriptomic analysis with tidyomics"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### Client-side bioinformatics: Building robust bioinformatics tools for the browser with WebAssembly
-
-```{r}
-data[["Client-side bioinformatics"]] %>% 
-  arrange(name) %>% 
-  reactable(pagination = FALSE)
-```
-
-### Making Sense of Metagenomes: From Bugs to Biological Insight
-
-```{r}
-data[["Making Sense of Metagenomes: From Bugs to Biological Insight"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driven Solutions
+### Room 310: DCS Cloud - Revolutionizing Genomics Research through Integrated, AI- Driven Solutions
 
 ```{r}
 data[["DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driven Solutions"]] %>% 
@@ -124,16 +100,7 @@ data[["DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driv
   reactable(pagination = FALSE)
 ```
 
-### Spatial clustering with ClustSIGNAL
-
-```{r}
-data[["Spatial clustering with ClustSIGNAL"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### A taster of in situ spatial transcriptomics experimental analysis
+### Room 310: A taster of in situ spatial transcriptomics experimental analysis
 
 ```{r}
 data[["A taster of in situ spatial transcriptomics experimental analysis"]] %>% 
@@ -143,31 +110,51 @@ data[["A taster of in situ spatial transcriptomics experimental analysis"]] %>%
 ```
 
 
+### Room 415: Client-side bioinformatics - Building robust bioinformatics tools for the browser with WebAssembly
+
+```{r}
+data[["Client-side bioinformatics"]] %>% 
+  arrange(name) %>% 
+  reactable(pagination = FALSE)
+```
+
+### Room 605: Making Sense of Metagenomes: From Bugs to Biological Insight
+
+```{r}
+data[["Making Sense of Metagenomes: From Bugs to Biological Insight"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Room 505: Streamline spatial and transcriptomic analysis with tidyomics
+
+```{r}
+data[["Streamline spatial and transcriptomic analysis with tidyomics"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+
+### Room 505: Spatial clustering with ClustSIGNAL
+
+```{r}
+data[["Spatial clustering with ClustSIGNAL"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+
+
 :::
 
 ## Friday Morning
 
 ::: panel-tabset
 
-### ATAClone: cancer clone identification and copy number estimation
-
-```{r}
-data[["ATAClone: cancer clone identification and copy number estimation"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda
-
-```{r}
-data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### Decoding Biological Data with Random Matrix Theory
+### Room 309: Decoding Biological Data with Random Matrix Theory 
 
 ```{r}
 data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>% 
@@ -176,7 +163,25 @@ data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>%
   reactable(pagination = FALSE)
 ```
 
-### Advanced Marker Identification and Data Analysis with mastR and smartid
+### Room 505: Spatial transcriptomics - SpaNorm, PhiSpace and jazzPanda
+
+```{r}
+data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Room 506: ATAClone - cancer clone identification and copy number estimation
+
+```{r}
+data[["ATAClone: cancer clone identification and copy number estimation"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+### Room 506: Advanced Marker Identification and Data Analysis with mastR and smartid
 
 ```{r}
 data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]] %>% 
@@ -191,16 +196,7 @@ data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]
 
 ::: panel-tabset
 
-### Interpreting benchmarking results with BenchmarkInsights
-
-```{r}
-data[["Interpreting benchmarking results with BenchmarkInsights"]] %>% 
-  arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
-```
-
-### Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider
+### Room 505: Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider
 
 ```{r}
 data[["Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider"]] %>% 
@@ -209,5 +205,13 @@ data[["Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider"]
   reactable(pagination = FALSE)
 ```
 
+### Room 506: Interpreting benchmarking results with BenchmarkInsights
 
-:::
+```{r}
+data[["Interpreting benchmarking results with BenchmarkInsights"]] %>% 
+  arrange(name) %>% 
+  mutate(IP = "") %>% 
+  reactable(pagination = FALSE)
+```
+
+
