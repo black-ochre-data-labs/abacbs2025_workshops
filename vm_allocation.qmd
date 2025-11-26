@@ -120,7 +120,7 @@ ip <- c("http://146.118.68.235:8787", "http://146.118.67.167:8787",
 data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>% 
   arrange(name) %>% 
   bind_rows(
-    tibble(name = c("Lahiru", "Luis", "Xinqi P", "Jennifer T"))
+    tibble(name = c("Lahiru", "Luis", "Xinqi P", "Jennifer T", "Haile"))
   ) %>% 
   mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
