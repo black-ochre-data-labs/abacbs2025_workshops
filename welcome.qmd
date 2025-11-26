@@ -1,0 +1,178 @@
+---
+title: "ABACBS / BiocAsia Workshops"
+date: "2025-11-27"
+date-format: "long"
+title-slide-attributes:
+    data-background-color: "#3D3D40"
+    data-background-image: https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png
+    data-background-opacity: "0.5"
+    data-background-size: "50%"
+    data-background-position: '95% 95%'
+    data-hide-logos: true
+format: 
+  revealjs:
+    height: 720
+    width: 1280
+    sansfont: Times New Roman
+    slide-number: c
+    show-slide-number: all
+---
+
+
+
+<br>
+*I would like to acknowledge that today we're meeting on lands belonging to the Kaurna people. We acknowledge the deep feelings of attachment and relationship of the Kaurna people to their Place.*
+
+<br>
+*We also pay respects to the cultural authority of Aboriginal and Torres Strait Islander peoples from other areas of Australia, and pay our respects to Elders past, present and emerging.*
+
+## Welcome
+
+![](https://biocasia2025.bioconductor.org/img/carousel/BiocAsia_2025.png){.absolute width='250px' top=0 right=20}
+
+:::: {.columns}
+::: {.column width='85%'}
+
+- Welcome to the 2025 ABACBS / BiocAsia Workshops 
+- Wanted to give all presenters a good amount of time to demonstrate their material
+    + Less of a sneak peak $\implies$ More of a deep dive
+- Originally had enough applications to fill 11 consecutive days 
+    + Presenters have been flexible & helpful managing this
+
+:::
+    
+::: {.fragment}
+
+- Today we have 5 parallel streams with many at room capacity
+- Tomorrow $\implies$ 3 streams
+
+:::
+::::
+
+## Sponsors
+
+:::: {.columns}
+
+::: {.column}
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/db60bf70-5296-4008-a65a-7ff416c21d05/pawsey-logo-beige.png?format=2500w)
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/b63a95b5-032a-4d09-8fa9-3e1a6931a1ad/Screenshot+2025-07-28+at+14.25.24.png?format=500w)
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/22378394-6648-41f8-be38-82636e29dc1d/Screenshot+2025-07-02+at+1.52.27%E2%80%AFpm.png?format=1200w)
+
+:::
+
+::: {.column}
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/000809d4-ab00-4aa8-bbb9-89f41a7925dd/Screenshot+2025-07-02+at+2.06.13%E2%80%AFpm.png?format=1000w)
+
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/7ecf5273-876c-4f3c-bc76-364438cb6f5d/Screenshot+2025-07-02+at+2.06.08%E2%80%AFpm.png?format=1000w)
+
+:::
+::::
+
+## Workshops
+
+- Preparing a workshop is a huge task $\implies$ presenters have worked incredibly hard
+- Pawsey have generously provided VMs where required
+    + Galaxy/Bioc *BuildABiocWorkshop* resource temporarily unavailable
+- VMs will be allocated for each session <br>$\implies$ everything should just work &#129310;
+
+::: {.fragment}
+
+- Presenters have worked closely with Michael Roach to prepare images
+- Images have been tested very carefully but...
+
+:::
+
+## Knowing Where To Go
+
+
+*Many people can't remember what they registered for*
+
+:::: {.columns}
+::: {.column width='40%'}
+
+![https://blackochrelabs.au/abacbs2025_workshops/vm_allocation.html](qr_allocations.png){fig-align="left" width="90%"}
+:::
+
+::: {.column width='60%'}
+- Every registration we have is on this page
+- Some were registered by a colleague / supervisor
+- Some didn't reallocate after cancellation
+- Please talk to me **immediately** after
+:::
+
+::::
+
+## Virtual Machines
+
+- VMs are only available during the session
+- Pawsey's allocation is generous but finite 
+    + Thursday morning $\implies$ 98% VM capacity
+- Don't keep notes on the VM, keep them locally
+- New VMs & IPs will be allocated as sessions change
+    + Please refresh https://blackochrelabs.au/abacbs2025_workshops/vm_allocation.html
+    + We will update as new VMs are launched
+    
+## 
+
+![Mike Roach by the end of these workshops](https://faroutmagazine.co.uk/static/uploads/1/2023/05/Keanu-Reeves-Neo-The-Matrix-Far-Out-Magazine-F-1140x855.jpg){fig-align="left"}
+
+## This Morning's Sessions
+
+1. Room 306: Introduction to Agentic Development
+2. Room 310: Oxford Nanopore - Introduction and Variant Calling
+3. Room 415: Leveraging peak Australian compute to enable workflows for predictive structural biology at scale
+4. Room 605: Orchestrating Microbiome Analysis with Bioconductor
+5. Room 506: Unlocking single-cell spatial omics analyses with SCDNEY
+
+**NB: After lunch the Single Cell & Spatial sessions are in Room 505**
+
+## Housekeeping
+
+- Catering will be on Level 5 for both days
+- Toilets are located on each floor
+- WiFi via `eduroam` or the Flinders University WiFi
+    + Today's guest password is: 
+
+::: {.fragment}
+- Tomorrow please enjoy the sleep-in for a 9am start
+:::
+
+## Bioconductor Community Advisory Board
+
+::: {.notes}
+- Izabela Mamede (Brazil)
+- Zahraa Alsafwani ()
+- Laurent Gatto (Belgium)
+- Martha Luka (Kenya & Scotland)
+- Tobi Ogunbawale
+:::
+
+![https://bioconductor.org/about/community-advisory-board/](cab.png)
+
+## Bioc Asia
+
+![](https://biocasia2025.bioconductor.org/img/carousel/BiocAsia_2025.png){.absolute width='250px' bottom=0 right=20}
+
+- After workshops we'll start planning directions for 2026 & beyond
+- Please talk to Ellis Patrick, Stefano Mangiola or myself
+- Very keen to hear what you'd like from Bioconductor
+    + More workshops
+    + Help developing packages or workflows
+    + Social events
+
+## Thank You
+
+
+- Thanks again to all presenters
+- All sponsors
+- The organisational team involved 
+    + Mike Roach, Nick Warnock, David Lawrence
+    + Stefano Mangiola, Malvika Kharbanda
+    + Rose Senesi
+    
+![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png){.absolute width='650px' bottom=0 right=20}
+
