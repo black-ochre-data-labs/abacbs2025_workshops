@@ -42,18 +42,38 @@ data[["Professional Bioinformatics: Introduction to Agentic Workflows"]] %>%
 ### Room 310: Introduction to Nanopore
 
 ```{r}
-data[["Introduction to Nanopore"]] %>% 
+ip <- c("https://146.118.64.34:8443", "https://146.118.66.243:8443", 
+"https://146.118.69.51:8443", "https://146.118.70.230:8443", 
+"https://146.118.69.1:8443", "https://146.118.70.25:8443", "https://146.118.68.140:8443", 
+"https://146.118.64.183:8443", "https://146.118.64.110:8443", 
+"https://146.118.65.120:8443", "https://146.118.69.189:8443", 
+"https://146.118.68.100:8443", "https://146.118.66.129:8443", 
+"https://146.118.66.45:8443", "https://146.118.69.150:8443", 
+"https://146.118.65.134:8443", "https://146.118.68.89:8443", 
+"https://146.118.70.149:8443", "https://146.118.66.52:8443", 
+"https://146.118.65.21:8443", "https://146.118.65.102:8443", 
+"https://146.118.65.162:8443", "https://146.118.68.173:8443", 
+"https://146.118.66.169:8443", "https://146.118.64.146:8443", 
+"https://146.118.69.28:8443", "https://146.118.67.228:8443", 
+"https://146.118.69.207:8443", "https://146.118.70.106:8443", 
+"https://146.118.68.57:8443", "https://146.118.69.216:8443", 
+"https://146.118.65.18:8443", "https://146.118.69.119:8443", 
+"https://146.118.68.242:8443", "https://146.118.67.246:8443")
+df <- data[["Introduction to Nanopore"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
-  reactable(pagination = FALSE)
+  mutate(IP = ip[seq_along(name)])  
+reactable(df, pagination = FALSE)
 ```
 
 ### Room 310: Using long reads to analyse genetic variation
 
+Please continue using your VM from *Introduction to Nanopore* if you have one
+
 ```{r}
 data[["Using long reads to analyse genetic variation"]] %>% 
+  anti_join(df) %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  mutate(IP = setdiff(ip, df$IP)[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
 
