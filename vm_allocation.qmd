@@ -43,9 +43,9 @@ data[["Professional Bioinformatics: Introduction to Agentic Workflows"]] %>%
 
 ### Room 310: Introduction to Nanopore
 
-<!-- username:	`ubuntu` -->
+username:	`ubuntu`
 
-<!-- ssh key: https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing -->
+ssh key: https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing
 
 ```{r}
 ip <- c("https://146.118.64.34:8443", "https://146.118.66.243:8443", 
@@ -75,9 +75,9 @@ reactable(df, pagination = FALSE)
 
 Please continue using your VM from *Introduction to Nanopore* if you have one
 
-<!-- username:	`ubuntu` -->
+username:	`ubuntu`
 
-<!-- ssh key:	https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing -->
+ssh key:	https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing
 
 ```{r}
 data[["Using long reads to analyse genetic variation"]] %>% 
@@ -99,9 +99,9 @@ data[["Leveraging peak Australian compute to enable workflows for predictive str
 
 ### Room 506: Unlocking single-cell spatial omics analyses with SCDNEY
 
-<!-- username:	`rstudio` -->
+username:	`rstudio`
 
-<!-- password:	N5DTm+zmyxpttLUfcaQZ -->
+password:	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
 ip <- c("http://146.118.68.235:8787", "http://146.118.67.167:8787", 
@@ -125,8 +125,8 @@ data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>%
 
 ### Room 605: Orchestrating Microbiome Analysis with Bioconductor
 
-<!-- username:	`rstudio` -->
-<!-- password:	ABACBS2025 -->
+username:	`rstudio`
+password:	ABACBS2025
 
 ```{r}
 ip <- c("http://146.118.65.26:8787", "http://146.118.69.107:8787", 
