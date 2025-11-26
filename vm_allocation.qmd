@@ -15,3 +15,76 @@ knitr:
 ---
 
 ![](https://images.squarespace-cdn.com/content/v1/5423875be4b03f0c482a58c4/421bf838-6118-4ae6-b7d9-b556072d4524/ABACBS+2025+Banner+-+10+years+of+ABACBS.png?format=2500w)
+
+
+# Thursday
+
+::: {.callout-tip collapse="true"}
+## Long Reads (Room 310)
+
+**0900-1100 & 1100-1230: Introduction to Nanopore & Using long reads to analyse genetic variation Using long reads to analyse genetic variation**
+<https://bit.ly/#######>
+
+**1530-1700: A taster of in situ spatial transcriptomics experimental analysis**
+<https://bit.ly/#######>
+:::
+
+
+::: {.callout-tip collapse="true"}
+## Microbiome & Metagenomics (Room 605)
+
+**0900-1230: Orchestrating Microbiome Analysis with Bioconductor **
+<https://bit.ly/#######>
+
+**1330-1700: Making Sense of Metagenomes**
+<https://bit.ly/#######>
+:::
+
+
+::: {.callout-tip collapse="true"}
+## Single-Cell and Spatial Transcriptomics
+
+**0900-1230 (Room 506): Unlocking single-cell spatial omics analyses with SCDNEY: Characterising spatial relationships between cells**
+<https://bit.ly/#######>
+
+**1330-1530 (Room 505): Streamline spatial and transcriptomic analysis with tidyomics**
+<https://bit.ly/#######>
+
+**1530-1700 (Room 505): Spatial clustering with ClustSIGNAL – a spatial transcriptomics data analysis method**
+<https://bit.ly/#######>
+:::
+
+
+# Friday
+
+::: {.callout-tip collapse="true"}
+## AI and Machine Learning in Genomics (Room 309)
+
+**0900-1100: Decoding Biological Data with Random Matrix Theory: Applications in Single-Cell Transcriptomics and Viral Vaccine Design**
+<https://bit.ly/#######>
+:::
+
+
+::: {.callout-tip collapse="true"}
+## Single Cell Omics; Scalable Workflows & Compute Infrastructure (Room 506)
+
+**0900-1100: ATAClone: cancer clone identification and copy number estimation from single-cell ATAC-seq**
+<https://bit.ly/#######>
+
+**1100-1230: Advanced Marker Identification and Data Analysis with mastR and smartid**
+<https://bit.ly/#######>
+
+**1330-1500: Interpreting benchmarking results with BenchmarkInsights**
+<https://bit.ly/#######>
+:::
+
+
+::: {.callout-tip collapse="true"}
+## Spatial Transcriptomics (Room 505)
+
+**0900-1230: Spatial transcriptomics normalisation and phenotyping using SpaNorm, PhiSpace and jazzPanda**
+<https://bit.ly/#######>
+
+**1330-1500: Interrogating spatial transcriptomics: hands-on spatial domain, neighborhood & density analysis with DOMINO, hoodscanR and scider**
+<https://bit.ly/#######>
+:::
