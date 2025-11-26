@@ -41,6 +41,10 @@ data[["Professional Bioinformatics: Introduction to Agentic Workflows"]] %>%
 
 ### Room 310: Introduction to Nanopore
 
+<!-- username:	`ubuntu` -->
+
+<!-- ssh key: https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing -->
+
 ```{r}
 ip <- c("https://146.118.64.34:8443", "https://146.118.66.243:8443", 
 "https://146.118.69.51:8443", "https://146.118.70.230:8443", 
@@ -68,6 +72,10 @@ reactable(df, pagination = FALSE)
 ### Room 310: Using long reads to analyse genetic variation
 
 Please continue using your VM from *Introduction to Nanopore* if you have one
+
+<!-- username:	`ubuntu` -->
+
+<!-- ssh key:	https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing -->
 
 ```{r}
 data[["Using long reads to analyse genetic variation"]] %>% 
@@ -98,10 +106,25 @@ data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>%
 
 ### Room 605: Orchestrating Microbiome Analysis with Bioconductor
 
+<!-- username:	`rstudio` -->
+<!-- password:	ABACBS2025 -->
+
 ```{r}
+ip <- c("http://146.118.65.26:8787", "http://146.118.69.107:8787", 
+"http://146.118.68.21:8787", "http://146.118.68.156:8787", "http://146.118.68.44:8787", 
+"http://146.118.68.243:8787", "http://146.118.65.170:8787", "http://146.118.64.148:8787", 
+"http://146.118.67.245:8787", "http://146.118.65.6:8787", "http://146.118.69.199:8787", 
+"http://146.118.66.17:8787", "http://146.118.68.185:8787", "http://146.118.68.72:8787", 
+"http://146.118.69.116:8787", "http://146.118.70.76:8787", "http://146.118.70.203:8787", 
+"http://146.118.70.92:8787", "http://146.118.67.226:8787", "http://146.118.67.198:8787", 
+"http://146.118.67.94:8787", "http://146.118.67.255:8787", "http://146.118.64.16:8787", 
+"http://146.118.67.216:8787", "http://146.118.67.241:8787", "http://146.118.69.6:8787", 
+"http://146.118.66.69:8787", "http://146.118.67.251:8787", "http://146.118.65.29:8787", 
+"http://146.118.69.85:8787", "http://146.118.69.217:8787", "http://146.118.68.184:8787"
+)
 data[["Orchestrating Microbiome Analysis with Bioconductor"]] %>% 
   arrange(name) %>%   
-  mutate(IP = "") %>% 
+  mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
 
