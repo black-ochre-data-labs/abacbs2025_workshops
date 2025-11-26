@@ -119,6 +119,9 @@ ip <- c("http://146.118.68.235:8787", "http://146.118.67.167:8787",
 )
 data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>% 
   arrange(name) %>% 
+  bind_rows(
+    tibble(name = c("Lahiru", "Luis"))
+  ) %>% 
   mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
@@ -143,6 +146,9 @@ ip <- c("http://146.118.65.26:8787", "http://146.118.69.107:8787",
 )
 data[["Orchestrating Microbiome Analysis with Bioconductor"]] %>% 
   arrange(name) %>%   
+  bind_rows(
+    tibble(name = c("Isabella", "Julia L", "Ellen T", "Amy L", "Andrea B"))
+  ) %>% 
   mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
@@ -159,6 +165,9 @@ data[["Orchestrating Microbiome Analysis with Bioconductor"]] %>%
 ```{r}
 data[["DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driven Solutions"]] %>% 
   arrange(name) %>% 
+  bind_rows(
+    tibble(name = "Emma R")
+  ) %>% 
   reactable(pagination = FALSE)
 ```
 
@@ -167,6 +176,9 @@ data[["DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driv
 ```{r}
 data[["A taster of in situ spatial transcriptomics experimental analysis"]] %>% 
   arrange(name) %>% 
+  bind_rows(
+    tibble(name = "Emma R")
+  ) %>% 
   mutate(IP = "") %>% 
   reactable(pagination = FALSE)
 ```
