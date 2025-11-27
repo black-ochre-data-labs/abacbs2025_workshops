@@ -264,7 +264,7 @@ data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>%
   arrange(name) %>% 
   bind_rows(
     tibble(
-      name = c("Shreya R", "Andrea B")
+      name = c("Shreya R", "Andrea B", "Xinqi P")
     )
   ) %>% 
   mutate(IP = ip[seq_along(name)]) %>% 
