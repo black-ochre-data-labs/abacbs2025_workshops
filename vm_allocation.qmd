@@ -48,23 +48,7 @@ username:	`ubuntu`
 ssh key: https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing
 
 ```{r}
-ip <- c("https://146.118.64.34:8443", "https://146.118.66.243:8443", 
-"https://146.118.69.51:8443", "https://146.118.70.230:8443", 
-"https://146.118.69.1:8443", "https://146.118.70.25:8443", "https://146.118.68.140:8443", 
-"https://146.118.64.183:8443", "https://146.118.64.110:8443", 
-"https://146.118.65.120:8443", "https://146.118.69.189:8443", 
-"https://146.118.68.100:8443", "https://146.118.66.129:8443", 
-"https://146.118.66.45:8443", "https://146.118.69.150:8443", 
-"https://146.118.65.134:8443", "https://146.118.68.89:8443", 
-"https://146.118.70.149:8443", "https://146.118.66.52:8443", 
-"https://146.118.65.21:8443", "https://146.118.65.102:8443", 
-"https://146.118.65.162:8443", "https://146.118.68.173:8443", 
-"https://146.118.66.169:8443", "https://146.118.64.146:8443", 
-"https://146.118.69.28:8443", "https://146.118.67.228:8443", 
-"https://146.118.69.207:8443", "https://146.118.70.106:8443", 
-"https://146.118.68.57:8443", "https://146.118.69.216:8443", 
-"https://146.118.65.18:8443", "https://146.118.69.119:8443", 
-"https://146.118.68.242:8443", "https://146.118.67.246:8443")
+ip <- NULL
 df <- data[["Introduction to Nanopore"]] %>% 
   arrange(name) %>% 
   mutate(IP = ip[seq_along(name)])  
@@ -104,19 +88,7 @@ username:	`rstudio`
 password:	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.68.235:8787", "http://146.118.67.167:8787", 
-"http://146.118.65.229:8787", "http://146.118.66.126:8787", "http://146.118.64.253:8787", 
-"http://146.118.69.168:8787", "http://146.118.66.0:8787", "http://146.118.65.94:8787", 
-"http://146.118.69.130:8787", "http://146.118.68.150:8787", "http://146.118.69.63:8787", 
-"http://146.118.68.170:8787", "http://146.118.66.132:8787", "http://146.118.70.109:8787", 
-"http://146.118.68.25:8787", "http://146.118.65.62:8787", "http://146.118.64.29:8787", 
-"http://146.118.66.31:8787", "http://146.118.64.160:8787", "http://146.118.65.139:8787", 
-"http://146.118.68.177:8787", "http://146.118.69.220:8787", "http://146.118.64.197:8787", 
-"http://146.118.65.92:8787", "http://146.118.69.215:8787", "http://146.118.69.152:8787", 
-"http://146.118.68.112:8787", "http://146.118.68.157:8787", "http://146.118.65.16:8787", 
-"http://146.118.68.35:8787", "http://146.118.66.160:8787", "http://146.118.70.88:8787", 
-"http://146.118.70.59:8787", "http://146.118.68.26:8787", "http://146.118.64.3:8787"
-)
+ip <- NULL
 data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -132,18 +104,7 @@ username:	`rstudio`
 password:	ABACBS2025
 
 ```{r}
-ip <- c("http://146.118.65.26:8787", "http://146.118.69.107:8787", 
-"http://146.118.68.21:8787", "http://146.118.68.156:8787", "http://146.118.68.44:8787", 
-"http://146.118.68.243:8787", "http://146.118.65.170:8787", "http://146.118.64.148:8787", 
-"http://146.118.67.245:8787", "http://146.118.65.6:8787", "http://146.118.69.199:8787", 
-"http://146.118.66.17:8787", "http://146.118.68.185:8787", "http://146.118.68.72:8787", 
-"http://146.118.69.116:8787", "http://146.118.70.76:8787", "http://146.118.70.203:8787", 
-"http://146.118.70.92:8787", "http://146.118.67.226:8787", "http://146.118.67.198:8787", 
-"http://146.118.67.94:8787", "http://146.118.67.255:8787", "http://146.118.64.16:8787", 
-"http://146.118.67.216:8787", "http://146.118.67.241:8787", "http://146.118.69.6:8787", 
-"http://146.118.66.69:8787", "http://146.118.67.251:8787", "http://146.118.65.29:8787", 
-"http://146.118.69.85:8787", "http://146.118.69.217:8787", "http://146.118.68.184:8787"
-)
+ip <- NULL
 data[["Orchestrating Microbiome Analysis with Bioconductor"]] %>% 
   arrange(name) %>%   
   bind_rows(
@@ -173,13 +134,30 @@ data[["DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driv
 
 ### Room 310: A taster of in situ spatial transcriptomics experimental analysis
 
+Login details (same for all VM instances)	
+
+username:	`rstudio`
+
+password:	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
+ip <- c("http://146.118.69.220:8787", "http://146.118.69.77:8787", 
+"http://146.118.64.49:8787", "http://146.118.70.90:8787", "http://146.118.66.27:8787", 
+"http://146.118.65.110:8787", "http://146.118.65.58:8787", "http://146.118.69.215:8787", 
+"http://146.118.69.163:8787", "http://146.118.67.112:8787", "http://146.118.68.20:8787", 
+"http://146.118.66.18:8787", "http://146.118.64.239:8787", "http://146.118.69.53:8787", 
+"http://146.118.65.213:8787", "http://146.118.69.119:8787", "http://146.118.70.253:8787", 
+"http://146.118.70.108:8787", "http://146.118.68.34:8787", "http://146.118.68.18:8787", 
+"http://146.118.69.240:8787", "http://146.118.67.122:8787", "http://146.118.70.205:8787", 
+"http://146.118.65.120:8787", "http://146.118.66.79:8787", "http://146.118.69.211:8787", 
+"http://146.118.66.189:8787", "http://146.118.66.243:8787", "http://146.118.65.237:8787"
+)
 data[["A taster of in situ spatial transcriptomics experimental analysis"]] %>% 
   arrange(name) %>% 
   bind_rows(
     tibble(name = "Emma R")
   ) %>% 
-  mutate(IP = "") %>% 
+  mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
 
@@ -194,19 +172,57 @@ data[["Client-side bioinformatics"]] %>%
 
 ### Room 605: Making Sense of Metagenomes: From Bugs to Biological Insight
 
+Login details (same for all VM instances)	
+
+username:	`rstudio`
+
+password:	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
+ip <- c("http://146.118.68.228:8787", "http://146.118.70.31:8787", 
+"http://146.118.66.211:8787", "http://146.118.69.14:8787", "http://146.118.70.13:8787", 
+"http://146.118.64.8:8787", "http://146.118.69.152:8787", "http://146.118.70.76:8787", 
+"http://146.118.69.247:8787", "http://146.118.67.246:8787", "http://146.118.70.133:8787", 
+"http://146.118.65.117:8787", "http://146.118.66.166:8787", "http://146.118.70.144:8787", 
+"http://146.118.64.220:8787", "http://146.118.65.186:8787", "http://146.118.69.33:8787", 
+"http://146.118.67.207:8787", "http://146.118.67.9:8787", "http://146.118.66.45:8787", 
+"http://146.118.68.72:8787", "http://146.118.66.174:8787", "http://146.118.66.197:8787", 
+"http://146.118.65.7:8787", "http://146.118.69.149:8787", "http://146.118.69.21:8787", 
+"http://146.118.65.216:8787", "http://146.118.70.225:8787")
 data[["Making Sense of Metagenomes: From Bugs to Biological Insight"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  bind_rows(
+    tibble(
+      name=  c("Amy L", "Andrea B")
+    )
+  ) %>% 
+  mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
 
 ### Room 505: Streamline spatial and transcriptomic analysis with tidyomics
 
+Login details (same for all VM instances)	
+
+username:	`rstudio`
+
+password:	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
+ip <- c("http://146.118.67.175:8787", "http://146.118.65.87:8787", 
+"http://146.118.64.13:8787", "http://146.118.66.76:8787", "http://146.118.68.67:8787", 
+"http://146.118.66.123:8787", "http://146.118.65.18:8787", "http://146.118.70.101:8787", 
+"http://146.118.64.188:8787", "http://146.118.65.46:8787", "http://146.118.69.94:8787", 
+"http://146.118.70.200:8787", "http://146.118.69.212:8787", "http://146.118.66.97:8787", 
+"http://146.118.69.150:8787", "http://146.118.68.218:8787", "http://146.118.69.176:8787", 
+"http://146.118.67.64:8787", "http://146.118.66.19:8787", "http://146.118.65.116:8787", 
+"http://146.118.67.189:8787", "http://146.118.64.183:8787", "http://146.118.64.254:8787", 
+"http://146.118.69.74:8787", "http://146.118.64.109:8787", "http://146.118.70.227:8787", 
+"http://146.118.66.99:8787", "http://146.118.64.104:8787", "http://146.118.65.229:8787", 
+"http://146.118.70.185:8787", "http://146.118.64.34:8787")
 data[["Streamline spatial and transcriptomic analysis with tidyomics"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
 
@@ -242,6 +258,11 @@ data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>%
 ```{r}
 data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>% 
   arrange(name) %>% 
+  bind_rows(
+    tibble(
+      name = c("Shreya R")
+    )
+  ) %>% 
   mutate(IP = "") %>% 
   reactable(pagination = FALSE)
 ```
@@ -275,6 +296,11 @@ data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]
 ```{r}
 data[["Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider"]] %>% 
   arrange(name) %>% 
+  bind_rows(
+    tibble(
+      name = c("Shreya R")
+    )
+  ) %>% 
   mutate(IP = "") %>% 
   reactable(pagination = FALSE)
 ```
