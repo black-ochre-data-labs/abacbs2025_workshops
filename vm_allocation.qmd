@@ -219,12 +219,13 @@ ip <- c("http://146.118.67.175:8787", "http://146.118.65.87:8787",
 "http://146.118.67.189:8787", "http://146.118.64.183:8787", "http://146.118.64.254:8787", 
 "http://146.118.69.74:8787", "http://146.118.64.109:8787", "http://146.118.70.227:8787", 
 "http://146.118.66.99:8787", "http://146.118.64.104:8787", "http://146.118.65.229:8787", 
-"http://146.118.70.185:8787", "http://146.118.64.34:8787")
+"http://146.118.70.185:8787", "http://146.118.64.34:8787", "http://146.118.65.38:8787",
+"http://146.118.64.150:8787", "http://146.118.66.91:8787")
 data[["Streamline spatial and transcriptomic analysis with tidyomics"]] %>% 
   arrange(name) %>% 
   bind_rows(
     tibble(
-      name = c("Xinqi P", "Jennifer T")
+      name = c("Xinqi P", "Jennifer T", "Clarice H")
     )
   ) %>% 
   mutate(IP = ip[seq_along(name)]) %>% 
@@ -239,7 +240,7 @@ data[["Spatial clustering with ClustSIGNAL"]] %>%
   arrange(name) %>% 
   bind_rows(
     tibble(
-      name = c("Xinqi P", "Jennifer T")
+      name = c("Xinqi P", "Jennifer T", "Clarice H")
     )
   ) %>% 
   mutate(IP = "") %>% 
