@@ -134,24 +134,8 @@ data[["DCS Cloud: Revolutionizing Genomics Research through Integrated, AI- Driv
 
 ### Room 310: A taster of in situ spatial transcriptomics experimental analysis
 
-Login details (same for all VM instances)	
-
-username:	`rstudio`
-
-password:	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.69.220:8787", "http://146.118.69.77:8787", 
-"http://146.118.64.49:8787", "http://146.118.70.90:8787", "http://146.118.66.27:8787", 
-"http://146.118.65.110:8787", "http://146.118.65.58:8787", "http://146.118.69.215:8787", 
-"http://146.118.69.163:8787", "http://146.118.67.112:8787", "http://146.118.68.20:8787", 
-"http://146.118.66.18:8787", "http://146.118.64.239:8787", "http://146.118.69.53:8787", 
-"http://146.118.65.213:8787", "http://146.118.69.119:8787", "http://146.118.70.253:8787", 
-"http://146.118.70.108:8787", "http://146.118.68.34:8787", "http://146.118.68.18:8787", 
-"http://146.118.69.240:8787", "http://146.118.67.122:8787", "http://146.118.70.205:8787", 
-"http://146.118.65.120:8787", "http://146.118.66.79:8787", "http://146.118.69.211:8787", 
-"http://146.118.66.189:8787", "http://146.118.66.243:8787", "http://146.118.65.237:8787"
-)
 data[["A taster of in situ spatial transcriptomics experimental analysis"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -172,24 +156,8 @@ data[["Client-side bioinformatics"]] %>%
 
 ### Room 605: Making Sense of Metagenomes: From Bugs to Biological Insight
 
-Login details (same for all VM instances)	
-
-username:	`rstudio`
-
-password:	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.68.228:8787", "http://146.118.70.31:8787", 
-"http://146.118.66.211:8787", "http://146.118.69.14:8787", "http://146.118.70.13:8787", 
-"http://146.118.64.8:8787", "http://146.118.69.152:8787", "http://146.118.70.76:8787", 
-"http://146.118.69.247:8787", "http://146.118.67.246:8787", "http://146.118.70.133:8787", 
-"http://146.118.65.117:8787", "http://146.118.66.166:8787", "http://146.118.70.144:8787", 
-"http://146.118.64.220:8787", "http://146.118.65.186:8787", "http://146.118.69.33:8787", 
-"http://146.118.67.207:8787", "http://146.118.67.9:8787", "http://146.118.66.45:8787", 
-"http://146.118.68.72:8787", "http://146.118.66.174:8787", "http://146.118.66.197:8787", 
-"http://146.118.65.7:8787", "http://146.118.69.149:8787", "http://146.118.69.21:8787", 
-"http://146.118.65.216:8787", "http://146.118.70.225:8787", "http://146.118.64.119:8787",
-"http://146.118.66.245:8787", "http://146.118.70.53:8787")
 data[["Making Sense of Metagenomes: From Bugs to Biological Insight"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -203,11 +171,6 @@ data[["Making Sense of Metagenomes: From Bugs to Biological Insight"]] %>%
 
 ### Room 505: Streamline spatial and transcriptomic analysis with tidyomics
 
-Login details (same for all VM instances)	
-
-username:	`rstudio`
-
-password:	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
 ip <- NULL
@@ -225,24 +188,8 @@ data[["Streamline spatial and transcriptomic analysis with tidyomics"]] %>%
 
 ### Room 505: Spatial clustering with ClustSIGNAL
 
-username:	`rstudio`
-
-password	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.64.208:8787", "http://146.118.70.238:8787", 
-"http://146.118.70.50:8787", "http://146.118.70.57:8787", "http://146.118.69.212:8787", 
-"http://146.118.70.54:8787", "http://146.118.69.134:8787", "http://146.118.68.56:8787", 
-"http://146.118.70.49:8787", "http://146.118.68.218:8787", "http://146.118.66.126:8787", 
-"http://146.118.69.69:8787", "http://146.118.64.50:8787", "http://146.118.64.29:8787", 
-"http://146.118.65.18:8787", "http://146.118.70.129:8787", "http://146.118.70.25:8787", 
-"http://146.118.64.141:8787", "http://146.118.64.109:8787", "http://146.118.65.132:8787", 
-"http://146.118.66.32:8787", "http://146.118.70.231:8787", "http://146.118.66.76:8787", 
-"http://146.118.70.217:8787", "http://146.118.66.110:8787", "http://146.118.67.57:8787", 
-"http://146.118.66.19:8787", "http://146.118.64.34:8787", "http://146.118.70.77:8787", 
-"http://146.118.64.197:8787", "http://146.118.68.156:8787", "http://146.118.68.111:8787", 
-"http://146.118.68.140:8787", "http://146.118.70.185:8787", "http://146.118.66.212:8787"
-)
 data[["Spatial clustering with ClustSIGNAL"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -264,7 +211,23 @@ data[["Spatial clustering with ClustSIGNAL"]] %>%
 
 ### Room 309: Decoding Biological Data with Random Matrix Theory 
 
+username:	`rstudio`
+
+password	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
+ip <- c("http://146.118.69.97:8787", "http://146.118.64.241:8787", 
+"http://146.118.64.148:8787", "http://146.118.67.130:8787", "http://146.118.68.26:8787", 
+"http://146.118.65.7:8787", "http://146.118.64.101:8787", "http://146.118.67.110:8787", 
+"http://146.118.65.84:8787", "http://146.118.68.74:8787", "http://146.118.64.227:8787", 
+"http://146.118.65.38:8787", "http://146.118.70.62:8787", "http://146.118.66.25:8787", 
+"http://146.118.67.55:8787", "http://146.118.69.216:8787", "http://146.118.68.155:8787", 
+"http://146.118.68.49:8787", "http://146.118.64.11:8787", "http://146.118.68.14:8787", 
+"http://146.118.65.132:8787", "http://146.118.64.50:8787", "http://146.118.69.66:8787", 
+"http://146.118.68.37:8787", "http://146.118.69.215:8787", "http://146.118.66.130:8787", 
+"http://146.118.68.25:8787", "http://146.118.67.181:8787", "http://146.118.69.163:8787", 
+"http://146.118.69.70:8787", "http://146.118.67.156:8787", "http://146.118.70.52:8787"
+)
 data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -276,9 +239,27 @@ data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>%
   reactable(pagination = FALSE)
 ```
 
+
 ### Room 505: Spatial transcriptomics - SpaNorm, PhiSpace and jazzPanda
 
+username:	`rstudio`
+
+password	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
+ip <- c("http://146.118.69.62:8787", "http://146.118.70.183:8787", 
+"http://146.118.64.157:8787", "http://146.118.70.50:8787", "http://146.118.64.78:8787", 
+"http://146.118.65.31:8787", "http://146.118.67.136:8787", "http://146.118.69.4:8787", 
+"http://146.118.70.205:8787", "http://146.118.69.176:8787", "http://146.118.67.93:8787", 
+"http://146.118.69.220:8787", "http://146.118.69.53:8787", "http://146.118.68.21:8787", 
+"http://146.118.66.19:8787", "http://146.118.65.240:8787", "http://146.118.67.226:8787", 
+"http://146.118.65.69:8787", "http://146.118.69.134:8787", "http://146.118.68.173:8787", 
+"http://146.118.70.251:8787", "http://146.118.68.90:8787", "http://146.118.70.87:8787", 
+"http://146.118.68.46:8787", "http://146.118.64.254:8787", "http://146.118.64.244:8787", 
+"http://146.118.70.125:8787", "http://146.118.67.246:8787", "http://146.118.65.56:8787", 
+"http://146.118.65.201:8787", "http://146.118.64.234:8787", "http://146.118.69.154:8787", 
+"http://146.118.65.180:8787", "http://146.118.68.44:8787", "http://146.118.69.14:8787", 
+"http://146.118.68.94:8787")
 data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -292,10 +273,27 @@ data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>%
 
 ### Room 506: ATAClone - cancer clone identification and copy number estimation
 
+username:	`rstudio`
+
+password	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
+ip <- c("http://146.118.67.180:8787", "http://146.118.68.72:8787", 
+"http://146.118.68.91:8787", "http://146.118.69.208:8787", "http://146.118.66.160:8787", 
+"http://146.118.64.160:8787", "http://146.118.64.8:8787", "http://146.118.70.90:8787", 
+"http://146.118.68.154:8787", "http://146.118.69.143:8787", "http://146.118.66.197:8787", 
+"http://146.118.64.104:8787", "http://146.118.70.93:8787", "http://146.118.68.243:8787", 
+"http://146.118.64.88:8787", "http://146.118.67.198:8787", "http://146.118.65.175:8787", 
+"http://146.118.65.91:8787", "http://146.118.65.197:8787", "http://146.118.68.189:8787", 
+"http://146.118.64.208:8787")
 data[["ATAClone: cancer clone identification and copy number estimation"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  bind_rows(
+    tibble(
+      name = c("Cathal K")
+    )
+  ) %>% 
+  mutate(IP = ip[seq_along(name)]) %>% 
   reactable(pagination = FALSE)
 ```
 
