@@ -264,7 +264,7 @@ data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>%
   arrange(name) %>% 
   bind_rows(
     tibble(
-      name = c("Shreya R", "Andrea B", "Xinqi P")
+      name = c("Shreya R", "Andrea B", "Xinqi P", "Cathal K")
     )
   ) %>% 
   mutate(IP = ip[seq_along(name)]) %>% 
@@ -278,14 +278,7 @@ username:	`rstudio`
 password	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.67.180:8787", "http://146.118.68.72:8787", 
-"http://146.118.68.91:8787", "http://146.118.69.208:8787", "http://146.118.66.160:8787", 
-"http://146.118.64.160:8787", "http://146.118.64.8:8787", "http://146.118.70.90:8787", 
-"http://146.118.68.154:8787", "http://146.118.69.143:8787", "http://146.118.66.197:8787", 
-"http://146.118.64.104:8787", "http://146.118.70.93:8787", "http://146.118.68.243:8787", 
-"http://146.118.64.88:8787", "http://146.118.67.198:8787", "http://146.118.65.175:8787", 
-"http://146.118.65.91:8787", "http://146.118.65.197:8787", "http://146.118.68.189:8787", 
-"http://146.118.64.208:8787")
+ip <- NULL
 data[["ATAClone: cancer clone identification and copy number estimation"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -299,10 +292,29 @@ data[["ATAClone: cancer clone identification and copy number estimation"]] %>%
 
 ### Room 506: Advanced Marker Identification and Data Analysis with mastR and smartid
 
+Login details (same for all VM instances)	
+
+username:	`rstudio`
+
+password	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
+ip <- c("http://146.118.65.94:8787", "http://146.118.70.106:8787", 
+"http://146.118.68.156:8787", "http://146.118.66.52:8787", "http://146.118.67.154:8787", 
+"http://146.118.64.141:8787", "http://146.118.64.203:8787", "http://146.118.68.133:8787", 
+"http://146.118.70.223:8787", "http://146.118.66.184:8787", "http://146.118.70.203:8787", 
+"http://146.118.64.145:8787", "http://146.118.66.18:8787", "http://146.118.65.64:8787", 
+"http://146.118.70.77:8787", "http://146.118.64.212:8787", "http://146.118.65.72:8787", 
+"http://146.118.67.255:8787", "http://146.118.65.211:8787", "http://146.118.66.123:8787", 
+"http://146.118.69.161:8787", "http://146.118.69.138:8787", "http://146.118.68.228:8787", 
+"http://146.118.65.127:8787", "http://146.118.65.92:8787", "http://146.118.66.179:8787", 
+"http://146.118.70.133:8787", "http://146.118.69.101:8787", "http://146.118.66.100:8787", 
+"http://146.118.68.20:8787", "http://146.118.70.73:8787", "http://146.118.67.9:8787", 
+"http://146.118.68.72:8787", "http://146.118.67.245:8787", "http://146.118.65.108:8787"
+)
 data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  mutate(IP = ip[seq_along(name)]) %>%
   reactable(pagination = FALSE)
 ```
 
@@ -315,6 +327,7 @@ data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]
 ### Room 505: Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider
 
 ```{r}
+ip <- NULL
 data[["Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -322,16 +335,17 @@ data[["Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider"]
       name = c("Shreya R", "Andrea B")
     )
   ) %>% 
-  mutate(IP = "") %>% 
+  mutate(IP = ip[seq_along(name)]) %>%
   reactable(pagination = FALSE)
 ```
 
 ### Room 506: Interpreting benchmarking results with BenchmarkInsights
 
 ```{r}
+ip <- NULL
 data[["Interpreting benchmarking results with BenchmarkInsights"]] %>% 
   arrange(name) %>% 
-  mutate(IP = "") %>% 
+  mutate(IP = ip[seq_along(name)]) %>%
   reactable(pagination = FALSE)
 ```
 
