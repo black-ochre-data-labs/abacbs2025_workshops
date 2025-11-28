@@ -43,9 +43,6 @@ data[["Professional Bioinformatics: Introduction to Agentic Workflows"]] %>%
 
 ### Room 310: Introduction to Nanopore
 
-username:	`ubuntu`
-
-ssh key: https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing
 
 ```{r}
 ip <- NULL
@@ -57,11 +54,6 @@ reactable(df, pagination = FALSE)
 
 ### Room 310: Using long reads to analyse genetic variation
 
-Please continue using your VM from *Introduction to Nanopore* if you have one
-
-username:	`ubuntu`
-
-ssh key:	https://drive.google.com/file/d/1BkcFe-2iAuRj7PnJtx6dQEMaKSCPWXDa/view?usp=sharing
 
 ```{r}
 data[["Using long reads to analyse genetic variation"]] %>% 
@@ -83,9 +75,6 @@ data[["Leveraging peak Australian compute to enable workflows for predictive str
 
 ### Room 506: Unlocking single-cell spatial omics analyses with SCDNEY
 
-username:	`rstudio`
-
-password:	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
 ip <- NULL
@@ -100,8 +89,6 @@ data[["Unlocking single-cell spatial omics analyses with SCDNEY"]] %>%
 
 ### Room 605: Orchestrating Microbiome Analysis with Bioconductor
 
-username:	`rstudio`
-password:	ABACBS2025
 
 ```{r}
 ip <- NULL
@@ -211,23 +198,10 @@ data[["Spatial clustering with ClustSIGNAL"]] %>%
 
 ### Room 309: Decoding Biological Data with Random Matrix Theory 
 
-username:	`rstudio`
 
-password	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.69.97:8787", "http://146.118.64.241:8787", 
-"http://146.118.64.148:8787", "http://146.118.67.130:8787", "http://146.118.68.26:8787", 
-"http://146.118.65.7:8787", "http://146.118.64.101:8787", "http://146.118.67.110:8787", 
-"http://146.118.65.84:8787", "http://146.118.68.74:8787", "http://146.118.64.227:8787", 
-"http://146.118.65.38:8787", "http://146.118.70.62:8787", "http://146.118.66.25:8787", 
-"http://146.118.67.55:8787", "http://146.118.69.216:8787", "http://146.118.68.155:8787", 
-"http://146.118.68.49:8787", "http://146.118.64.11:8787", "http://146.118.68.14:8787", 
-"http://146.118.65.132:8787", "http://146.118.64.50:8787", "http://146.118.69.66:8787", 
-"http://146.118.68.37:8787", "http://146.118.69.215:8787", "http://146.118.66.130:8787", 
-"http://146.118.68.25:8787", "http://146.118.67.181:8787", "http://146.118.69.163:8787", 
-"http://146.118.69.70:8787", "http://146.118.67.156:8787", "http://146.118.70.52:8787"
-)
+ip <- NULL
 data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -242,24 +216,9 @@ data[["ABABCS: Decoding Biological Data with Random Matrix Theory"]] %>%
 
 ### Room 505: Spatial transcriptomics - SpaNorm, PhiSpace and jazzPanda
 
-username:	`rstudio`
-
-password	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.69.62:8787", "http://146.118.70.183:8787", 
-"http://146.118.64.157:8787", "http://146.118.70.50:8787", "http://146.118.64.78:8787", 
-"http://146.118.65.31:8787", "http://146.118.67.136:8787", "http://146.118.69.4:8787", 
-"http://146.118.70.205:8787", "http://146.118.69.176:8787", "http://146.118.67.93:8787", 
-"http://146.118.69.220:8787", "http://146.118.69.53:8787", "http://146.118.68.21:8787", 
-"http://146.118.66.19:8787", "http://146.118.65.240:8787", "http://146.118.67.226:8787", 
-"http://146.118.65.69:8787", "http://146.118.69.134:8787", "http://146.118.68.173:8787", 
-"http://146.118.70.251:8787", "http://146.118.68.90:8787", "http://146.118.70.87:8787", 
-"http://146.118.68.46:8787", "http://146.118.64.254:8787", "http://146.118.64.244:8787", 
-"http://146.118.70.125:8787", "http://146.118.67.246:8787", "http://146.118.65.56:8787", 
-"http://146.118.65.201:8787", "http://146.118.64.234:8787", "http://146.118.69.154:8787", 
-"http://146.118.65.180:8787", "http://146.118.68.44:8787", "http://146.118.69.14:8787", 
-"http://146.118.68.94:8787")
+ip <- NULL
 data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>% 
   arrange(name) %>% 
   bind_rows(
@@ -273,9 +232,6 @@ data[["Spatial transcriptomics: SpaNorm, PhiSpace and jazzPanda"]] %>%
 
 ### Room 506: ATAClone - cancer clone identification and copy number estimation
 
-username:	`rstudio`
-
-password	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
 ip <- NULL
@@ -292,26 +248,9 @@ data[["ATAClone: cancer clone identification and copy number estimation"]] %>%
 
 ### Room 506: Advanced Marker Identification and Data Analysis with mastR and smartid
 
-Login details (same for all VM instances)	
-
-username:	`rstudio`
-
-password	N5DTm+zmyxpttLUfcaQZ
 
 ```{r}
-ip <- c("http://146.118.65.94:8787", "http://146.118.70.106:8787", 
-"http://146.118.68.156:8787", "http://146.118.66.52:8787", "http://146.118.67.154:8787", 
-"http://146.118.64.141:8787", "http://146.118.64.203:8787", "http://146.118.68.133:8787", 
-"http://146.118.70.223:8787", "http://146.118.66.184:8787", "http://146.118.70.203:8787", 
-"http://146.118.64.145:8787", "http://146.118.66.18:8787", "http://146.118.65.64:8787", 
-"http://146.118.70.77:8787", "http://146.118.64.212:8787", "http://146.118.65.72:8787", 
-"http://146.118.67.255:8787", "http://146.118.65.211:8787", "http://146.118.66.123:8787", 
-"http://146.118.69.161:8787", "http://146.118.69.138:8787", "http://146.118.68.228:8787", 
-"http://146.118.65.127:8787", "http://146.118.65.92:8787", "http://146.118.66.179:8787", 
-"http://146.118.70.133:8787", "http://146.118.69.101:8787", "http://146.118.66.100:8787", 
-"http://146.118.68.20:8787", "http://146.118.70.73:8787", "http://146.118.67.9:8787", 
-"http://146.118.68.72:8787", "http://146.118.67.245:8787", "http://146.118.65.108:8787"
-)
+ip <- NULL
 data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]] %>% 
   arrange(name) %>% 
   mutate(IP = ip[seq_along(name)]) %>%
@@ -326,8 +265,28 @@ data[["Advanced Marker Identification and Data Analysis with mastR and smartid"]
 
 ### Room 505: Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider
 
+username:	`rstudio`
+
+password:	N5DTm+zmyxpttLUfcaQZ
+
 ```{r}
-ip <- NULL
+ip <-c("http://146.118.64.41:8787", "http://146.118.66.19:8787", "http://146.118.65.46:8787", 
+"http://146.118.64.145:8787", "http://146.118.69.33:8787", "http://146.118.68.182:8787", 
+"http://146.118.69.26:8787", "http://146.118.65.134:8787", "http://146.118.70.90:8787", 
+"http://146.118.65.56:8787", "http://146.118.66.126:8787", "http://146.118.66.189:8787", 
+"http://146.118.70.95:8787", "http://146.118.69.246:8787", "http://146.118.69.63:8787", 
+"http://146.118.70.129:8787", "http://146.118.68.189:8787", "http://146.118.67.246:8787", 
+"http://146.118.68.89:8787", "http://146.118.68.81:8787", "http://146.118.68.164:8787", 
+"http://146.118.65.224:8787", "http://146.118.65.116:8787", "http://146.118.70.203:8787", 
+"http://146.118.68.173:8787", "http://146.118.68.243:8787", "http://146.118.66.28:8787", 
+"http://146.118.69.3:8787", "http://146.118.70.15:8787", "http://146.118.67.126:8787", 
+"http://146.118.69.179:8787", "http://146.118.64.254:8787", "http://146.118.64.49:8787", 
+"http://146.118.66.27:8787", "http://146.118.66.160:8787", "http://146.118.67.112:8787", 
+"http://146.118.66.97:8787", "http://146.118.65.227:8787", "http://146.118.65.79:8787", 
+"http://146.118.70.73:8787", "http://146.118.66.153:8787", "http://146.118.66.91:8787", 
+"http://146.118.66.212:8787", "http://146.118.64.40:8787", "http://146.118.65.117:8787", 
+"http://146.118.65.197:8787", "http://146.118.70.219:8787", "http://146.118.64.173:8787", 
+"http://146.118.68.72:8787", "http://146.118.69.40:8787")
 data[["Interrogating spatial transcriptomics with DOMINO, hoodscanR and scider"]] %>% 
   arrange(name) %>% 
   bind_rows(
